@@ -2,7 +2,7 @@
  * @Author: cuihaonan
  * @Email: devcui@outlook.com
  * @Date: 2021-07-13 17:27:00
- * @LastEditTime: 2021-07-14 15:22:55
+ * @LastEditTime: 2021-07-15 16:15:28
  * @LastEditors: cuihaonan
  * @Description: Basic description
  * @FilePath: /devcui-cli/utils.ts
@@ -16,7 +16,7 @@ import { FILE_TYPE_BYTES } from "./consts.ts";
  *  @returns Array<string> pokemon's position
  */
 export function positionVenusaur(): Array<string> {
-  return Array.from(new Array(59).keys()).map((n) => `/animate/giphy-${n}.png`);
+  return Array.from(new Array(38).keys()).map((n) => `/animate/giphy-${n}.png`);
 }
 
 /**

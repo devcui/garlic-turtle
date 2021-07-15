@@ -2,7 +2,7 @@
  # @Author: cuihaonan
  # @Email: devcui@outlook.com
  # @Date: 2021-07-13 17:12:07
- # @LastEditTime: 2021-07-13 17:12:15
+ # @LastEditTime: 2021-07-15 16:22:24
  # @LastEditors: cuihaonan
  # @Description: Basic description
  # @FilePath: /devcui-cli/run.sh
@@ -11,4 +11,4 @@
 
 #!/bin/bash
 
-deno run --allow-read ./index.ts 
+deno run --unstable --allow-read ./index.ts 
